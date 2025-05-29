@@ -32,7 +32,7 @@ function watch() {
 }
 
 // Exportações
-exports.build = gulp.series(html, styles, images, scripts);
+exports.build = gulp.series(styles, images, scripts);
 exports.styles = styles;
 exports.scripts = scripts;
 exports.images = images;
