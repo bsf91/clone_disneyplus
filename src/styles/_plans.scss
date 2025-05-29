@@ -12,6 +12,7 @@
 
         @media (max-width: 1280px) {
             display: block;
+            justify-self: center;
         }
 
         .button {
@@ -24,10 +25,7 @@
             max-width: 380px;
             width: 100%;
 
-            @media (max-width: 1280px) {
-                justify-self: center;;
-            }
-
+            
             &:nth-child(2) {
                 background-image: url(../images/fundo_combo_plus.png);
                 background-repeat: no-repeat;
